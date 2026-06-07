@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tab Navigation</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Dashboard</h1>
+
+        <div class="tabs">
+
+            <button
+                class="tab-btn active"
+                data-tab="overview"
+            >
+                Overview
+            </button>
+
+            <button
+                class="tab-btn"
+                data-tab="details"
+            >
+                Details
+            </button>
+
+            <button
+                class="tab-btn"
+                data-tab="settings"
+            >
+                Settings
+            </button>
+
+        </div>
+
+        <div class="content">
+
+            <div
+                id="overview"
+                class="tab-content active-content"
+            >
+                <h2>Overview</h2>
+                <p>
+                    Welcome to the dashboard overview section.
+                </p>
+            </div>
+
+            <div
+                id="details"
+                class="tab-content"
+            >
+                <h2>Details</h2>
+                <p>
+                    Here you can view detailed information.
+                </p>
+            </div>
+
+            <div
+                id="settings"
+                class="tab-content"
+            >
+                <h2>Settings</h2>
+                <p>
+                    Configure your application settings here.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
