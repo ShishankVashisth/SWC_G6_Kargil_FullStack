@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+    padding:20px;
+}
+
+h1{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+#feed{
+    width:600px;
+    margin:auto;
+}
+
+.post{
+    background:white;
+    padding:20px;
+    margin-bottom:15px;
+    border-radius:8px;
+    box-shadow:0 0 5px rgba(0,0,0,0.2);
+}
+
+#loader{
+    text-align:center;
+    padding:20px;
+    display:none;
+    font-weight:bold;
+}
